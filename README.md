@@ -31,3 +31,8 @@ Please provide a command:
   shell        Runs a Python shell inside Flask application context.
   upgradedb    Upgrade the user database
 ```
+
+##TODOs
+- [x] Upload to github
+- [ ] Document/Comment.
+- [ ] Try to remember why I'm using a dev version of sqlalchemy_migrate
