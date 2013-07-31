@@ -1,0 +1,4 @@
+flask
+*.db
+tmp
+*.pyc

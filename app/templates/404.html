@@ -1,0 +1,14 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block map %}
+    <div class="hero-unit">
+      <h1>HTTP Error 404!</h1>
+      <p>File Not Found</p>
+      <p>
+        <a href="{{ url_for('home.home') }}" class="btn btn-primary btn-large">
+          Back
+        </a>
+      </p>
+    </div>
+{% endblock %}

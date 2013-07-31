@@ -1,0 +1,17 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block middle_column %}
+    <div class="hero-unit">
+      <h1>Welcome!</h1>
+      <p>This is ???. Please use the buttons below to continue.</p>
+      <p>
+        {% if authenticated %}
+          <a href="{{ url_for('auth.logout') }}" class="btn btn-primary btn-large">Logout</a>
+        {% else %}
+          <a href="{{ url_for('auth.login') }}" class="btn btn-primary btn-large">Login</a>
+        {% endif %}
+        <a href="http://www.google.com/" class="btn btn-info btn-large">Learn more</a>
+      </p>
+    </div>
+{% endblock %}
