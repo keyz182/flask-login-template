@@ -3,7 +3,7 @@ from flask import Flask, render_template
 from flask.ext.bootstrap import Bootstrap
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
-from .auth import authorized
+from app.auth import authorized
 from flask_debugtoolbar import DebugToolbarExtension
 from app.blueprints import register_blueprints
 
