@@ -27,7 +27,7 @@ def InitDB():
     db.session.add_all([u1,u2,u3])
     db.session.commit()
 
-    users = models.User.query.all()
+    users = User.query.all()
 
     for u in users:
         print u
