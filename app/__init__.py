@@ -50,7 +50,7 @@ def load_user(id):
     return User.query.get(int(id))
 
 #import data models
-from app.viavm.models import *
+from app.models import *
 
 #Log to file if debugging is not enabled
 if not app.debug:
