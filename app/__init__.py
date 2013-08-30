@@ -44,10 +44,13 @@ def internal_error(error):
     return render_template('500.html'), 500
 
 #User loader for flask-login
-from app.models import *
+from app.auth.models import *
 @lm.user_loader
 def load_user(id):
     return User.query.get(int(id))
+
+#import data models
+from app.viavm.models import *
 
 #Log to file if debugging is not enabled
 if not app.debug:

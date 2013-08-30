@@ -4,7 +4,6 @@ import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..//')))
-sys.path.append('/home/ubuntu/interviewer/')
 
 from flask.ext.script import Manager, Server
 from app import *

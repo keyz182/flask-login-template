@@ -2,7 +2,7 @@ __author__ = 'Kieran'
 from flask import render_template, flash, redirect, request, session
 from flask.views import MethodView
 
-from app.models import *
+from app.auth.models import *
 
 from flask.ext.login import login_user, current_user
 from LoginForm import LoginForm
