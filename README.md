@@ -32,7 +32,7 @@ Please provide a command:
   upgradedb    Upgrade the user database
 ```
 
-##T ODOs
+## TODOs
 - [x] Upload to github
 - [ ] Document/Comment.
 - [ ] Try to remember why I'm using a dev version of sqlalchemy_migrate
